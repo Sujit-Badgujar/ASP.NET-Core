@@ -17,7 +17,7 @@ namespace DI_Example_1.Controllers
         {
             List<string> cities = _citiesService.GetCities();
 
-            return View(cities);
+            return View(cities); 
         }
     }
 }
