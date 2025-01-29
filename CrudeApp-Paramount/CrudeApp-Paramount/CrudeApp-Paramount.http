@@ -1,0 +1,6 @@
+@CrudeApp_Paramount_HostAddress = http://localhost:5108
+
+GET {{CrudeApp_Paramount_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
